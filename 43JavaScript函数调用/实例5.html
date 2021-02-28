@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>菜鸟教程</title>
+</head>
+<body>
+	<p id="demo"></p>
+
+
+	<script type="text/javascript">
+		
+		function myFunction(arg1,arg2){
+			this.firstName=arg1;
+			this.lastName=arg2;
+		}
+
+		var x = new myFunction("Harry","Potter");
+		document.getElementById("demo").innerHTML=x.firstName;
+	</script>
+
+</body>
+</html>
